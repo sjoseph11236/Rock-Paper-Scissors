@@ -1,0 +1,266 @@
+/* This re-sets with universal selector "*" and gets rid the default margin and padding*/
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkred;
+}
+
+header{ 
+    background: white;
+    padding: 15px;
+}
+
+#music{ 
+    display: none;
+}
+
+#musicPlus {
+    display: none;
+}
+
+header > h1{ 
+    color: darkred;
+    text-align: center;
+    font-family: 'Akronim', cursive;  
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.score-board{ 
+    border: 3px solid white;
+    width: 200px;
+    margin: 20px auto;   
+    color: white;
+    font-size: 40px;
+    border-radius: 4px; 
+    text-align: center; 
+    padding: 15px 20px;
+    font-family: 'Akronim', cursive;  
+    position: relative;
+}
+
+.badge{
+    background: darkgreen;  
+    color: white;
+    font-size: 20px; 
+    padding: 2px 14px; 
+    font-family: 'Akronim', cursive;  
+}
+
+#user-label{ 
+    position: absolute;
+    top: 30px;
+    left: -25px; 
+}
+
+#comp-label{
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+.result { 
+    font-size: 60px;
+    color: white;
+}
+
+.result > p{
+    text-align: center;
+    font-family: 'Akronim', cursive;
+}
+.choices{
+    text-align: center;
+    margin: 50px 0;
+}
+.choice{
+    display: inline-block;
+    border: 4px solid white;
+    border-radius: 50%;   
+    margin: 0 20px;
+    padding: 15px; 
+    transition: all 0.3s ease;
+    box-shadow: 0 9px #999;
+}
+
+.choice:hover{
+    cursor: pointer;  
+    background: darkolivegreen;
+    background-color: #3e8e41
+}
+
+.choice:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#action-message{ 
+    text-align: center;
+    color:white;
+    font-family: 'Akronim', cursive; 
+    font-size: 20px; 
+}
+
+.green-glow {
+    border: 4px solid #4dcc70;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow {
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow {
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
+ 
+/* intro and End screen */
+
+#overlay { 
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#endScreenContent {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    font-size: 35px; 
+    color: whitesmoke; 
+    text-shadow: 3px 2px crimson;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+#endScreenContent > h1,h2{
+    font-family: "Akronim",cursive; 
+    text-align: center; 
+}
+
+#endScreenContent > h2{ 
+    margin-top: 20px;
+}
+
+#textEndTitle:hover{
+    cursor: pointer;  
+    padding: 5px 5px;
+    background: darkolivegreen;
+    background-color:green;
+}
+
+#textEndTitle:active {
+    background-color: green;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#overlayIntro{
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#introScreenContent {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    font-size: 35px; 
+    color: whitesmoke; 
+    text-shadow: 3px 2px crimson;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+#introScreenContent > h1{
+    font-family: "Akronim",cursive; 
+    text-align: center; 
+}
+
+#startGame:hover{
+    cursor: pointer;  
+    padding: 15px 45px;
+    background: darkolivegreen; 
+    background-color:green;
+}
+
+#startGame:active {
+    background-color: green;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+
+/* #endScreenContent > #btnReplay {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: #3e8e41
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} */
+
+
+/* 
+#introScreen { 
+    position: absolute;
+    z-index: 101;
+    width: 600px;
+    height: 400px;
+    background-color: black;
+    
+}
+
+#introScreenContent {
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    background-color: white; 
+    margin: 80 auto; 
+    text-align: center; 
+} */
+
+
+
+
