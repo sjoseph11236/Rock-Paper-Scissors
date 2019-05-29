@@ -1,6 +1,6 @@
 # Rock-Paper-Scissors
-Project
-A rock,paper,scissors game built using HTML, CSS and Javascript. I added overlay, button click animation and sound effects.
+Project:
+- A rock,paper,scissors game built using HTML, CSS and Javascript. I added overlay, button click animation and sound effects.
 
 Rules:
 - Paper beats Rock
