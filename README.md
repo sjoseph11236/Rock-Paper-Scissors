@@ -12,6 +12,9 @@ New Rules:
 - Every win  is +1 points. 
 - First to 2 points wins the match. 
 
+link to Game: 
+https://sjoseph11236.github.io/Rock-Paper-Scissors/
+
 let's connect on linkIn:
 https://www.linkedin.com/in/sayeed-joseph-3b95b9179/
 
