@@ -15,7 +15,7 @@ New Rules:
 link to game: 
 https://sjoseph11236.github.io/Rock-Paper-Scissors/
 
-let's connect on linkIn:
+let's connect on linkedIn:
 https://www.linkedin.com/in/sayeed-joseph-3b95b9179/
 
 Source:
